@@ -1,11 +1,10 @@
 import { FaFacebook, FaInstagram, FaTiktok, FaYoutube, FaTwitter } from 'react-icons/fa';
 
-
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
             <h2 className="text-xl font-bold">Quick Links</h2>
             <ul className="text-sm space-y-1">
@@ -32,22 +31,22 @@ const Footer = () => {
             <input type="email" placeholder="Enter your email address" className="mt-2 p-2 w-full"/>
             <button className="mt-2 p-2 w-full bg-blue-500 text-white">Subscribe</button>
             <div className="flex space-x-2 mt-2">
-  <a href="#" className="text-gray-400 hover:text-white mx-2">
-    <FaFacebook className="h-6 w-6" />
-  </a>
-  <a href="#" className="text-gray-400 hover:text-white mx-2">
-    <FaInstagram className="h-6 w-6" />
-  </a>
-  <a href="#" className="text-gray-400 hover:text-white mx-2">
-    <FaTiktok className="h-6 w-6" />
-  </a>
-  <a href="#" className="text-gray-400 hover:text-white mx-2">
-    <FaYoutube className="h-6 w-6" />
-  </a>
-  <a href="#" className="text-gray-400 hover:text-white mx-2">
-    <FaTwitter className="h-6 w-6" />
-  </a>
-</div>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">
+                <FaFacebook className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">
+                <FaInstagram className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">
+                <FaTiktok className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">
+                <FaYoutube className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white mx-2">
+                <FaTwitter className="h-6 w-6" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

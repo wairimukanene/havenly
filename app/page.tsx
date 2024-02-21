@@ -6,7 +6,7 @@ import About from '../components/About/about';
 import Services  from '../components/Services/services';
 import Contact from '../components/Contact/contact';
 import Footer from '../components/Footer/footer';
-// import BackToTop from '../components/Backtotop/back';
+
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <div id="services"><Services/></div>
       <div id="contact"><Contact/></div>
       <Footer/>
-      {/* <BackToTop/> */}
+    
    </div>
   );
 }
