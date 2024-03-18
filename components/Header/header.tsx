@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header: React.FC = () => {
+const Header = () => {
   const textStyle = {
     fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
     fontStyle: 'normal',
@@ -19,14 +19,17 @@ const Header: React.FC = () => {
         <div className="">
           <img src="/70.png" alt="Second Image" className="" />
         </div>
+        <div className="absolute inset-0 flex items-center justify-center" style={{ top: '-5%' }}>
+  <div className="text-center" style={textStyle}>
+    <h2 className="text-2xl font-bold hover:text-blue-200">UNISEX CHRIST BASED CASUALWEAR</h2>
+    <h2 className="text-2xl font-bold hover:text-blue-200">Stay cool & Connected to faith</h2>
+  </div>
+</div>
+
       </div>
-      <div className="absolute inset-0 flex items-center justify-center" style={{ marginTop: '-180px' }}>
-        <div className="text-center" style={textStyle}>
-          <h2 className="text-2xl font-bold hover:text-blue-200">UNISEX CHRIST BASED CASUALWEAR</h2>
-          <h2 className="text-2xl font-bold hover:text-blue-200">Stay cool & Connected to faith</h2>
-        </div>
       </div>
-    </div>
+     
+   
   );
 };
 
