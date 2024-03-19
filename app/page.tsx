@@ -1,6 +1,6 @@
 
 
-import Navbar from '../components/navbar/navbar';
+import Navbar from '../components/Navbar/navbar';
 import Header from '../components/Header/header';
 import About from '../components/About/about';
 import Services from '../components/Services/services';
